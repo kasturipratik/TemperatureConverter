@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Calculation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="container ">
+
+        <div class="row ">
+            <div class="col-sm-12 col-md-3">
+
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <img src="image/weather.jpg" alt="weather picture" id="image" class="img-fluid img-responsive rounded-circle" >
+            </div>
+            <div class="col-sm-12 col-md-3">
+
+            </div>
+
+        </div>
+      <div class="row mt-5">
+        <div class="col-sm-12 col-md-6">
+
+            <label>Enter Fahrenheit to convert to Celsius</label>
+            <input type="number" class="form-control" id="fah">
+            <button class="btn btn-lg btn-success mt-4" type="button" onclick="celsius()">Convert</button>
+            <p id="c"></p>
+        </div>
+        <div class="col-sm-12 col-md-6">
+
+
+            <label>Enter Celsius to convert to Fahrenheit</label>
+            <input type="number" class="form-control" id="cel">
+
+         <!--
+         --><button class="btn btn-lg btn-success mt-4" type="button"  onclick="fahrenheit()">Convert</button>
+            <p id="f"></p>
+        </div>
+      </div>
+
+
+</div>
+
+</body>
+</html>
